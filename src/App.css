@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+body {
+  background-color: #1e293b;
+  color: 	#f1f5f9;;
+}
+
+.flexbox {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cards {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.img {
+  width: 320px;
+  border-radius: 20px;
+}
+
+.tittle {
+  font-size: 25px;
+}
+
+.main-image {
+  height: 300px;
+}
+
+.flexapp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
