@@ -20,6 +20,10 @@ export default function Sobre() {
                     <div key={characters.id} className='cards'>
                         <h1 className="tittle">{characters.name}</h1>
                         <img src={characters.image} className='img'></img>
+                        <p className="desc">{characters.status}</p>
+                        <p className="desc">{characters.species}</p>
+                        <p className="desc">{characters.gender}</p>
+                        <p className="desc">{characters.location.name}</p>
                     </div>
                 ))
             }
